@@ -400,27 +400,6 @@ body {
 .collage-image.two-thirds {
   height: 66.6666666%;
 }
-.collage-image.one {
-  background: url("http://images.huffingtonpost.com/2014-12-02-knowledgepoolstokeepyourbrainhealthythiswinter.jpeg") no-repeat center;
-}
-.collage-image.two {
-  background: url("http://davideschenlohr.com/wp/david/wp-content/uploads/2015/08/type-set.jpg") no-repeat center;
-}
-.collage-image.three {
-  background: url("http://papers.co/wallpaper/papers.co-mu80-paris-eiffel-tower-tour-dark-bw-bird-france-29-wallpaper.jpg") no-repeat center;
-}
-.collage-image.four {
-  background: url("http://www.secondchance.org/wp-content/uploads/2014/07/unsplash_52c8b9c40b624_1-copy.jpg") no-repeat left top;
-}
-.collage-image.five {
-  background: url("https://ununsplash.imgix.net/31/4dAw8Su1SyaQH5ABC87S_Traunsee-Toscana_2014-02-01%20%2890%20von%20117%29.jpg?fit=max&fm=jpg&h=1080&q=75&w=1080") no-repeat center;
-}
-.collage-image.six {
-  background: url("https://d24wuq6o951i2g.cloudfront.net/img/events/id/146/146452/assets/f18.cirque.jpg") no-repeat center;
-}
-.collage-image.seven {
-  background: url("http://static1.squarespace.com/static/5555d35ae4b02de6a6e49ea4/5559d7efe4b0338055e763ac/5559d863e4b0c2b7c9e90a86/1433334869903/14010_023.jpg") no-repeat center;
-}
 .portfolio-bottom {
   height: 300px;
   background: #1d1d1d;
@@ -539,7 +518,6 @@ body {
   margin-bottom: 25px;
 }
 .service-row-half.grey-back {
-  background: url("https://dnbfeed.no/wp-content/uploads/2015/08/city-sunny-buildings-skyscrapers-e1440501856970-624x284.jpg") no-repeat center;
   background-size: cover;
   filter: grayscale(1);
 }
@@ -739,6 +717,10 @@ body {
   transform: scale(1);
   transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
 }
+.social-button:hover {
+  transform: scale(1);
+  transition: 0.3s cubic-bezier(0.3, 0.2, 0, 2.5);
+}
 .social-button.instagram-button {
   background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/instagram-square-social-media-256.png") no-repeat center;
 }
@@ -748,6 +730,7 @@ body {
 .social-button.github-button {
   background: url("https://cdn4.iconfinder.com/data/icons/liu-square-blac/60/github-square-social-media-256.png") no-repeat center;
 }
+
 @media screen and (max-width: 1300px) {
   .test-left .half-big-text {
     letter-spacing: 2px;
